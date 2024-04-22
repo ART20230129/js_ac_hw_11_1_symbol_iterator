@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Домашнее задание к лекции «Итераторы»</h1> 
+<!--   <script>
+
+  class Character {
+    constructor(name, type, health, level, attack, defence) {
+    this.name = name;
+    this.type = type;
+    this.health = health;
+    this.level = level;
+    this.attack = attack;
+    this. defence = defence;     
+  }
+}
+
+const unit1 = new Character('Red', 'Hacker', 50, 1, 40, 10);
+const unit2 = new Character('Gar', 'Palladin', 70, 2, 550, 20);
+const unit3 = new Character('Zed', 'Spy', 50, 3, 25, 15);
+const unit4 = new Character('Lons', 'Raider', 30, 1, 25, 15);
+
+class Team {
+    constructor(){
+                this.units = new Set();
+    }
+
+    addUnit(unit){
+                this.units.add(unit)          
+                
+    }
+        
+    [Symbol.iterator]() {
+        let current = 0;
+        let last = this.units
+
+        return {         
+            next() {
+                if (current < last.size) {// у нас используется Set()!!!
+                    return {
+                        done: false,
+                        value: [...last][current++]
+                    };
+                } else {
+                  return {
+                    done: true
+                  };
+                }
+                
+            }
+        }
+  }
+}
+
+
+const newTeam = new Team();
+
+newTeam.addUnit(unit1);
+newTeam.addUnit(unit2);
+newTeam.addUnit(unit3);
+newTeam.addUnit(unit4);
+
+for(let item of newTeam){
+        console.log(item);
+} -->
+
+
+  </script>
+</body>
+</html>
